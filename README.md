@@ -14,11 +14,10 @@ Viết lớp `StudentAnalyzer` để:
 - `src/test/java/org/example/bt_tuan_2/StudentAnalyzerTest.java`: unit test bằng JUnit 5
 
 ## Cách chạy test
-### Cách 1: Maven
 mvn test
 
-📘 BT Tuần 3 – Kiểm thử End-to-End với Cypress (SauceDemo)
-1. 🎯 Mục tiêu
+# 📘 BT Tuần 3 – Kiểm thử End-to-End với Cypress (SauceDemo)
+## 1. 🎯 Mục tiêu
 
 - Làm quen và thực hành kiểm thử tự động End-to-End (E2E) bằng Cypress
 
@@ -26,7 +25,7 @@ mvn test
 
 - Chạy kiểm thử và thu thập kết quả chạy test (screenshot) để nộp bài
 
-2. 📝 Mô tả bài toán
+## 2. 📝 Mô tả bài toán
 
 Sử dụng Cypress để kiểm thử website mẫu:
 
@@ -44,7 +43,7 @@ Sử dụng Cypress để kiểm thử website mẫu:
 
     - Thực hiện quy trình thanh toán (checkout)
 
-3. ⚙️ Yêu cầu môi trường
+⚙️ Yêu cầu môi trường
 
 - Node.js v14 trở lên
 
@@ -53,23 +52,20 @@ Sử dụng Cypress để kiểm thử website mẫu:
 - Visual Studio Code (hoặc trình soạn thảo mã nguồn bất kỳ)
 
 
-4. 📁 Cấu trúc thư mục (Tuần 3)
+## 3. 📁 Cấu trúc thư mục (Tuần 3)
 
-week-end2end-cypress/
-├── cypress/
-│   ├── e2e/
-│   │   ├── login_spec.cy.js        # Kiểm thử đăng nhập
-│   │   └── cart_spec.cy.js         # Kiểm thử giỏ hàng & checkout
-├── cypress.config.js
-├── package.json
-└── README.md
+- `week-end2end-cypress/cypress/e2e/login_spec.cy.js`: kiểm thử đăng nhập (thành công + thất bại)
+- `week-end2end-cypress/cypress/e2e/cart_spec.cy.js`: kiểm thử giỏ hàng & checkout (add, sort, remove, checkout step two)
+- `week-end2end-cypress/cypress.config.js`: cấu hình Cypress cho E2E
+- `week-end2end-cypress/package.json`: khai báo project Node.js và scripts/phụ thuộc Cypress
+- `week-end2end-cypress/cypress/evidence`: Ảnh minh chứng kết quả
 
-5. 🚀 Cài đặt Cypress
+## 4. 🚀 Cài đặt Cypress
 npm init -y
 npm install cypress --save-dev
 npx cypress open
 
-6. ✅ Các kịch bản kiểm thử đã thực hiện
+## 5. ✅ Các kịch bản kiểm thử đã thực hiện
 
 🔐 1. Kiểm tra đăng nhập thành công
 
@@ -149,7 +145,7 @@ login_spec.cy.js
 
 cart_spec.cy.js
 
-📦 Kết quả nộp bài
+## 📦 Kết quả nộp bài
 
 - Mã nguồn Cypress
 
