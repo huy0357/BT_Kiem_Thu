@@ -188,7 +188,7 @@ cart_spec.cy.js
 
 - Tổng cộng 6 test case – tất cả đều PASS ✅
 
-📊 BT Tuần 4 – Kiểm thử hiệu năng với JMeter
+# BT Tuần 4 – Kiểm thử hiệu năng với JMeter
 
 1️⃣ Mục tiêu
 
@@ -199,6 +199,7 @@ Thiết kế các kịch bản kiểm thử với tham số khác nhau (số lư
 Thu thập và phân tích các chỉ số hiệu năng.
 
 Viết báo cáo kết quả kiểm thử dưới dạng Markdown.
+
 2️⃣ Website được chọn kiểm thử
 
 Có thể thay thế bằng website dự án nhóm hoặc một website công khai phù hợp.
@@ -290,17 +291,7 @@ Sau khi chạy từng Thread Group, thu thập:
 
 ❌ Error Rate (%) – Tỷ lệ lỗi
 
-Kết quả được lưu dưới dạng:
 
-File CSV
-
-Hoặc Screenshot của Summary Report
-
-7️⃣ Phân tích kết quả (Ví dụ trình bày)
-Kịch bản	Avg Response Time	Throughput	Error Rate
-Cơ bản	250 ms	20 req/s	0%
-Tải nặng	780 ms	65 req/s	2%
-Tùy chỉnh	420 ms	30 req/s	0%
 🔎 Nhận xét:
 
 Khi tăng số lượng người dùng, thời gian phản hồi tăng.
@@ -324,3 +315,7 @@ Hệ thống vẫn hoạt động ổn định nếu Error Rate thấp (<5%).
 https://docs.cypress.io
 
 https://www.saucedemo.com
+
+Tài liệu JUnit 5
+
+Tài liệu Apache JMeter
